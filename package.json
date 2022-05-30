@@ -1,0 +1,27 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tw:build": "npx tailwindcss -o ./style.css --watch",
+    "start:server" : "json-server-auth --watch db.json --port 3001"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "antd": "^4.20.5",
+    "axios": "^0.27.2",
+    "i": "^0.3.7",
+    "json-server": "^0.17.0",
+    "json-server-auth": "^2.1.0",
+    "navigo": "^8.11.1",
+    "npm": "^8.11.0"
+  }
+}
