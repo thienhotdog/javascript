@@ -1,8 +1,8 @@
 import "../../assets/css/website.css";
 const FooterWebsite = {
-    render(){
-        return`
-            <footer class="footer_top ">
+    render() {
+        return `
+            <footer class="footer_top mt-4 ">
                 <div class="grid grid-cols-10 gap-4">
                     <div class="col-span-2">
                     <p class="pl-8 font-bold text-black" > Hỗ trợ khách hàng</p>

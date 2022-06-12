@@ -1,6 +1,4 @@
 import Router from "./Router"
 
-function render(){
-    document.querySelector('#root')
-}
+window.addEventListener('hashchange', Router())
 window.addEventListener('DOMContentLoaded', Router());

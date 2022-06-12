@@ -1,9 +1,9 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: "https://test-shop-demo.herokuapp.com/api",
+    baseURL: "http://localhost:3001",
     headers: {
-    "Content-Type": "application/json"
+        "Content-Type": "application/json"
     }
 })
 
