@@ -60,7 +60,7 @@ const HeaderWebsite = {
                             <div class="navbar-list">
                             <div class=" flex mt-4 " >
                                 ${result}
-                                <a class="pr-3 navbar-item" href="">
+                                <a class="pr-3 navbar-item" href="/cart">
                                 <img  src="https://salt.tikicdn.com/ts/upload/40/44/6c/b80ad73e5e84aeb71c08e5d8d438eaa1.png" class="img_user" />
                                 </a>
                                 <p class="text">Giỏ Hàng</p> 

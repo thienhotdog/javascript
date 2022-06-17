@@ -1,28 +1,14 @@
-import { data } from "autoprefixer";
 import { edit, get, getAll } from "../../../api/product";
-import "../../../assets/css/website.css";
-import HeaderAdmin from "../../../compoment/admin/Header";
-import NavAdmin from "../../../compoment/admin/Nav";
+import { isAuthenticated } from "../../../auth/util";
+import HeaderAdmin from "../../../compoment/admin/Header"
+import NavAdmin from "../../../compoment/admin/Nav"
 
-const ListProduct = {
-    async render() {
+const Product = {
+    async render(){
         const { data } = await getAll();
         console.log(data);
         const result = data.map((product, index) => {
-            const hiden = product.isHidden;
-            const ishiden = (hiden) =>{
-                if(hiden === true){
-                    return`
-                        <p class="btn btn-primary" data-id="${product.id}" id="hiden">Đang ẩn</p>
-                    `
-                }else{
-                    return`
-                    <p class="btn btn-danger" data-id="${product.id}" id="hiden">Đang hiện</p>
-                    `
-                }
-            }
-            const hidens =ishiden(hiden);
-            if (product.authors  && product.quantity_sold) {
+            if (product.authors  && product.quantity_sold && product.isHidden === false) {
                 return `
                 <tr>
                     <td>${index + 1}</td>
@@ -40,7 +26,8 @@ const ListProduct = {
                     }
                     </td>
                     <td>
-                        ${product.list_price.toLocaleString()} VNĐ
+                        ${product.list_price}
+                        ${product.original_price}
                     </td>
                     <td>
                         ${product.authors[0].name}
@@ -61,14 +48,13 @@ const ListProduct = {
                     }).join('')}
                     </td>
                     <td>
-                        <a href="/admin/edit/product/${product.id}"><p class="btn btn-primary">Edit</p  ></a>
+                        <a href="/admin/edit/product/${product.id}"><p class="btn btn-primary">Sửa</p  ></a>
+                        <p class="btn btn-danger" id="garbage" data-id="${product.id}">Garbage</p>
                     </td>
-                    <td>
-                        ${hidens}
-                    </td>
+                   
                 </tr>
                 `
-            } else if (product.authors && product.quantity_sold === undefined) {
+            } else if (product.authors && product.quantity_sold === undefined  && product.isHidden === false) {
                 return `
                 <tr>
                     <td>${index + 1}</td>
@@ -86,7 +72,8 @@ const ListProduct = {
                     }
                     </td>
                     <td>
-                        ${product.list_price.toLocaleString()} VNĐ
+                        ${product.list_price}
+                        ${product.original_price}
                     </td>
                     <td>
                         ${product.authors[0].name}
@@ -107,14 +94,13 @@ const ListProduct = {
                     }).join('')}
                     </td>
                     <td>
-                        <a href="/admin/edit/product/${product.id}"><p class="btn btn-primary">Edit</p></a>
+                        <a href="/admin/edit/product/${product.id}"><p class="btn btn-primary">Sửa</p></a>
+                        <p class="btn btn-danger" id="garbage" data-id="${product.id}">Garbage</p>
                     </td>
-                    <td>
-                    ${hidens}
-                    </td>
+                    
                 </tr>
                 `
-            }else if(product.authors === undefined && product.quantity_sold){
+            }else if(product.authors === undefined && product.quantity_sold  && product.isHidden === false){
                 return `
                 <tr>
                     <td>${index + 1}</td>
@@ -132,7 +118,8 @@ const ListProduct = {
                     }
                     </td>
                     <td>
-                        ${product.list_price.toLocaleString()} VNĐ
+                        ${product.list_price}
+                        ${product.original_price}
                     </td>
                     <td>
                         không có tác giả
@@ -153,14 +140,13 @@ const ListProduct = {
                     }).join('')}
                     </td>
                     <td>
-                        <a href="/admin/edit/product/${product.id}"><p class="btn btn-primary">Edit</p></a>
+                        <a href="/admin/edit/product/${product.id}"><p class="btn btn-primary">Sửa</p></a>
+                        <p class="btn btn-danger" id="garbage" data-id="${product.id}">Garbage</p>
                     </td>
-                    <td>
-                    ${hidens}
-                    </td>
+                   
                 </tr>
                 `
-            }else{
+            }else if (product.authors === undefined && product.quantity_sold === undefined &&  product.isHidden === false){
                 return `
                 <tr>
                     <td>${index + 1}</td>
@@ -178,7 +164,8 @@ const ListProduct = {
                     }
                     </td>
                     <td>
-                        ${product.list_price.toLocaleString()} VNĐ
+                        ${product.list_price}
+                        ${product.original_price}
                     </td>
                     <td>
                         không có tác giả
@@ -199,20 +186,17 @@ const ListProduct = {
                     }).join('')}
                     </td>
                     <td>
-                        <a href="/admin/edit/product/${product.id}"><p class="btn btn-primary">Edit</p></a>
+                        <a href="/admin/edit/product/${product.id}"><p class="btn btn-primary">Sửa</p></a>
+                        <p class="btn btn-danger" id="garbage" data-id="${product.id}">Garbage</p>
                     </td>
-                    <td>
-                    ${hidens}
-                    </td>
+                    
                 </tr>
                 `
             }
-
         }).join('')
 
-
-        return `
-            <div>
+        return`
+        <div>
             ${HeaderAdmin.render()}
             <div class="container-fluid">
             <div class="row">
@@ -238,7 +222,6 @@ const ListProduct = {
                             <th>mô tả</th>
                             <th>thông tin chung</th>
                             <th>Hành động </th>
-                            <th>Tình đạng</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -253,25 +236,25 @@ const ListProduct = {
         `
     },
     afterRender(){
-        const btns = document.querySelectorAll("#hiden");
-        btns.forEach(btn =>{
-            const id= btn.dataset.id;
-            btn.addEventListener("click", async (e) =>{
-                const {data} = await get(id);
+        const btn = document.querySelectorAll("#garbage")
+        btn.forEach(btn =>{
+            const id = btn.dataset.id;
+            btn.addEventListener("click", async(e) =>{
+                e.preventDefault();
+                const {data} = await get(id)
                 const newBook = {
                     ...data,
                     isHidden: !data.isHidden
                 }
-                if(confirm("bạn muốn hiện hoặc ẩn sản phẩm này")=== true){
+
+                if(confirm("bạn muốn chuyển sản phẩm này đến thùng rác ?")=== true){
                     edit(id,newBook);
-                    window.location.href = "/admin/listbook"
+                    window.location.href = "/admin/garbage"
                 }
             })
         })
-    }   
+        
+    }
 }
 
-export default ListProduct;
-
-
-
+export default Product

@@ -2,7 +2,7 @@
   "users": [
     {
       "email": "thienhotdog@gmail.com",
-      "password": "$2a$10$2QmC/0yDs6WiP15tQ2TdNe.Ypy3YgHowpHn55Dw36NceOclflWvVq",
+      "password": "$2a$10$pO3B6pqkEtFNIqQzx7XqWOpk5YgXo3JL5ysSYlefmRI8GDopxSSvy",
       "name": "Admin",
       "id": 1
     }
@@ -60,8 +60,8 @@
           "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/be/65/38/fa6e7be4f1681d71757deb81edf00ac7.jpg"
         }
       ],
-      "list_price": "138000",
-      "name": "101 BÍ KÍP SỐNG SÓT NƠI CÔNG SỞ-Sửa lần 1",
+      "list_price": 131100,
+      "name": "101 BÍ KÍP SỐNG SÓT NƠI CÔNG SỞ-Sửa lần 6",
       "original_price": 138000,
       "rating_average": "1",
       "short_description": "Chúng ta đang sống trong một thời đại vội vã, dường như mọi giao tiếp đều ở trên màn hình xanh, và dường như chúng ta thường quên đi những niềm vui giản dị, những ấm áp yêu thương, những cử chỉ chân t...",
@@ -70,17 +70,14 @@
           "name": "Thông tin chung",
           "attributes": [
             {
-              "code": "publisher_vn",
               "name": "Công ty phát hành",
               "value": "SBOOKS"
             },
             {
-              "code": "number_of_page",
               "name": "Số trang",
               "value": "336"
             },
             {
-              "code": "manufacturer",
               "name": "Nhà xuất bản",
               "value": "Nhà Xuất Bản Thế Giới"
             }
@@ -109,7 +106,7 @@
         "is_best_store": false,
         "is_offline_installment_supported": null
       },
-      "description": "<p>Chúng ta đang sống trong một thời đại vội vã, dường như mọi giao tiếp đều ở trên màn hình xanh, và dường như chúng ta thường quên đi những niềm vui giản dị, những ấm áp yêu thương, những cử chỉ chân thành ở một nơi mà chúng ta sống nhiều hơn ở nhà – đó là công sở.</p>\n<p>Để rồi một ngày mọi áp lực như đổ vào đầu chúng ta cùng một lúc, áp lực từ sếp, áp lực từ đồng nghiệp, áp lực từ nhân viên…</p>\n<p>Xì trét … xì trét khiến mỗi đêm chúng ta không thể ngủ được rồi luôn tự hỏi: Chúng ta đang làm cái quái gì vậy?</p>\n<p>Thực tế là, chúng ta có làm gì đâu? Chính vì chúng ta không làm gì nên xì trét nối liền xì trét, áp lực nối liền áp lực.</p>\n<p>Giá mà chúng ta biết lắng nghe hơn, biết chia sẻ hơn, biết hợp tác hơn, biết rèn luyện kỹ năng cho bản thân hơn, biết tôn trọng hơn… thì công sở thực sự là một mái nhà thứ hai của chúng ta.</p>\n<p>Để cho mọi nhân viên, mọi vị sếp không thốt lên từ “giá mà”, chúng tôi viết cuốn sách này, từ kinh nghiệm quý báu trong và ngoài nước hi vọng có thể như một chiếc phao giúp quý vị “sống sót” giữa muôn trùng dông bão có tên là “áp lực nơi công sở”.</p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "description": "<p>Chúng ta đang sống trong một thời đại vội vã, dường như mọi giao tiếp đều ở trên màn hình xanh, và dường như chúng ta thường quên đi những niềm vui giản dị, những ấm áp yêu thương, những cử chỉ chân thành ở một nơi mà chúng ta sống nhiều hơn ở nhà – đó là công sở.</p><p>Để rồi một ngày mọi áp lực như đổ vào đầu chúng ta cùng một lúc, áp lực từ sếp, áp lực từ đồng nghiệp, áp lực từ nhân viên…</p><p>Xì trét … xì trét khiến mỗi đêm chúng ta không thể ngủ được rồi luôn tự hỏi: Chúng ta đang làm cái quái gì vậy?</p><p>Thực tế là, chúng ta có làm gì đâu? Chính vì chúng ta không làm gì nên xì trét nối liền xì trét, áp lực nối liền áp lực.</p><p>Giá mà chúng ta biết lắng nghe hơn, biết chia sẻ hơn, biết hợp tác hơn, biết rèn luyện kỹ năng cho bản thân hơn, biết tôn trọng hơn… thì công sở thực sự là một mái nhà thứ hai của chúng ta.</p><p>Để cho mọi nhân viên, mọi vị sếp không thốt lên từ “giá mà”, chúng tôi viết cuốn sách này, từ kinh nghiệm quý báu trong và ngoài nước hi vọng có thể như một chiếc phao giúp quý vị “sống sót” giữa muôn trùng dông bão có tên là “áp lực nơi công sở”.</p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
       "images": [
         {
           "base_url": "https://salt.tikicdn.com/ts/product/82/82/80/c542073200c6e95d3e89840b2f41ce2e.jpg",
@@ -142,27 +139,24 @@
           "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/be/65/38/fa6e7be4f1681d71757deb81edf00ac7.jpg"
         }
       ],
-      "list_price": 138000,
-      "name": "101 BÍ KÍP SỐNG SÓT NƠI CÔNG SỞ-Sửa lần 2",
+      "list_price": 131101,
+      "name": "101 BÍ KÍP SỐNG SÓT NƠI CÔNG SỞ-Vừa sửa xong",
       "original_price": 138000,
-      "rating_average": 0,
+      "rating_average": "1",
       "short_description": "Chúng ta đang sống trong một thời đại vội vã, dường như mọi giao tiếp đều ở trên màn hình xanh, và dường như chúng ta thường quên đi những niềm vui giản dị, những ấm áp yêu thương, những cử chỉ chân t...",
       "specifications": [
         {
           "name": "Thông tin chung",
           "attributes": [
             {
-              "code": "publisher_vn",
               "name": "Công ty phát hành",
               "value": "SBOOKS"
             },
             {
-              "code": "number_of_page",
               "name": "Số trang",
               "value": "336"
             },
             {
-              "code": "manufacturer",
               "name": "Nhà xuất bản",
               "value": "Nhà Xuất Bản Thế Giới"
             }
@@ -170,21 +164,19 @@
         }
       ],
       "id": 3,
-      "isHidden": false
+      "isHidden": true
     },
     {
       "authors": [
         {
-          "id": 200397,
-          "name": "Eric Barker",
-          "slug": "eric-barker"
+          "name": "Eric Barker"
         }
       ],
       "book_cover": null,
       "categories": {
         "id": 871,
-        "name": "Sách tư duy - Kỹ năng sống",
-        "is_leaf": true
+        "name": "Sách tiếng Việt",
+        "is_leaf": false
       },
       "current_seller": {
         "id": 20225,
@@ -198,7 +190,7 @@
         "is_best_store": false,
         "is_offline_installment_supported": null
       },
-      "description": "<p><strong><span style=\"font-size: 14px;\">*** Nội dung phiên bản tái bản không có thay đổi so với phiên bản đầu, chỉ thay đổi format và số đăng ký năm theo Luật Xuất Bản ***</span></strong></p>\n<p><span style=\"font-size: 14px;\">---------------------------------------</span></p>\n<p><span style=\"font-size: 14px;\">Bạn có biết:</span></p>\n<p><span style=\"font-size: 14px;\">- Các thủ khoa hiếm khi trở thành triệu phú, và nhược điểm lớn nhất có khi lại là ưu điểm tuyệt vời nhất mà ai ai cũng khao khát sở hữu.</span></p>\n<p><span style=\"font-size: 14px;\">- Ở công ty, sự chăm chỉ đang bị thổi phồng quá mức, còn những trò nịnh bợ lại thường mang đến kết quả tốt, và liệu đề cao chính nghĩa hay sa vào tà đạo mới là con đường dẫn đến thành công?</span></p>\n<p><span style=\"font-size: 14px;\">- Những người lính Navy SEAL và những nhân viên bán bảo hiểm có một điểm chung quan trọng, và cách sử dụng nguyên tắc WNGF trong thiết kế trò chơi để biến đống bài tập chán ngắt thành những trò chơi hấp dẫn. </span></p>\n<p><span style=\"font-size: 14px;\">Rất nhiều lời khuyên về thành công rất logic, đầy cảm hứng, và sai bét. Bằng cách nhìn qua lăng kính khoa học để xem những người cực kỳ thành công khác với mình ở những điểm nào, ta học được cách để trở nên giống họ—và nhận ra trong vài trường hợp, không được như họ hóa ra lại tốt hơn.</span></p>\n<p> </p>\n<p>CHÓ SỦA NHẦM CÂY - BARKING UP THE WRONG TREE - là quyển sách gây tiếng vang, liên tục nằm trong danh sách bestseller Amazon của tác giả kiêm chủ trang blog Barking up the wrong tree - Eric Barker. Xuyên suốt nội dung sách, Eric sẽ cùng chúng ta lý giải một cách đầy hóm hỉnh nhưng không kém phần chặt chẽ những quan niệm khác nhau về thành công từ trước đến nay. Và ở cuối con đường đó, mỗi người chúng ta sẽ tự tìm thấy ngưỡng cửa thành công cho riêng mình.</p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "description": "<p><strong><span style=",
       "images": [
         {
           "base_url": "https://salt.tikicdn.com/ts/product/29/c6/6d/64243ee01d5a0786fdb3c3977ec9c63e.jpg",
@@ -228,39 +220,33 @@
         "text": "Đã bán 1000+",
         "value": 5869
       },
-      "rating_average": 4.8,
+      "rating_average": "4",
       "short_description": "*** Nội dung phiên bản tái bản không có thay đổi so với phiên bản đầu, chỉ thay đổi format và số đăng ký năm theo Luật Xuất Bản ***---------------------------------------Bạn có biết:- Các thủ khoa ...",
       "specifications": [
         {
           "name": "Thông tin chung",
           "attributes": [
             {
-              "code": "publisher_vn",
               "name": "Công ty phát hành",
               "value": "Ecoblader"
             },
             {
-              "code": "publication_date",
               "name": "Ngày xuất bản",
               "value": "2019-06-06 14:20:28"
             },
             {
-              "code": "dimensions",
               "name": "Kích thước",
               "value": "<p>Khổ 16x24 cm</p>"
             },
             {
-              "code": "dich_gia",
               "name": "Dịch Giả",
               "value": "Phạm Quốc Khánh - Nguyễn Hạo Nhiên"
             },
             {
-              "code": "book_cover",
               "name": "Loại bìa",
               "value": "Bìa mềm"
             },
             {
-              "code": "number_of_page",
               "name": "Số trang",
               "value": "320"
             }
@@ -268,7 +254,7 @@
         }
       ],
       "id": 4,
-      "isHidden": false
+      "isHidden": true
     },
     {
       "authors": [
@@ -460,7 +446,7 @@
         }
       ],
       "id": 6,
-      "isHidden": false
+      "isHidden": true
     },
     {
       "book_cover": null,
@@ -541,7 +527,7 @@
         }
       ],
       "id": 7,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -634,7 +620,7 @@
         }
       ],
       "id": 8,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -722,7 +708,7 @@
         }
       ],
       "id": 9,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -830,7 +816,7 @@
         }
       ],
       "id": 10,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -928,7 +914,7 @@
         }
       ],
       "id": 12,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -1016,7 +1002,7 @@
         }
       ],
       "id": 13,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "book_cover": null,
@@ -1117,7 +1103,7 @@
         }
       ],
       "id": 14,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -1241,7 +1227,7 @@
         }
       ],
       "id": 15,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "book_cover": null,
@@ -1422,7 +1408,7 @@
         }
       ],
       "id": 16,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -1515,7 +1501,7 @@
         }
       ],
       "id": 17,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -1598,7 +1584,7 @@
         }
       ],
       "id": 18,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -1771,7 +1757,7 @@
         }
       ],
       "id": 19,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -1874,7 +1860,7 @@
         }
       ],
       "id": 20,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -2012,7 +1998,7 @@
         }
       ],
       "id": 21,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -2310,7 +2296,7 @@
         }
       ],
       "id": 22,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -2383,7 +2369,7 @@
         }
       ],
       "id": 23,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -2991,7 +2977,7 @@
         }
       ],
       "id": 29,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -3089,7 +3075,7 @@
         }
       ],
       "id": 30,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "authors": [
@@ -3187,7 +3173,193 @@
         }
       ],
       "id": 31,
-      "isHidden": true
+      "isHidden": false
+    }
+  ],
+  "order": [
+    {
+      "name": "Admin",
+      "email": "thienhotdog@gmail.com",
+      "product": [
+        {
+          "book_cover": null,
+          "categories": {
+            "id": 316,
+            "name": "Sách tiếng Việt",
+            "is_leaf": false
+          },
+          "current_seller": {
+            "id": 53660,
+            "sku": "7328355137461",
+            "name": "Nhà sách Fahasa",
+            "link": "https://tiki.vn/cua-hang/nha-sach-fahasa",
+            "logo": "ce/b3/22/b8fabaef7909cfe7349e7b538a174ab8.jpg",
+            "price": 131100,
+            "product_id": "80959947",
+            "store_id": 51001,
+            "is_best_store": false,
+            "is_offline_installment_supported": null
+          },
+          "description": "<p>Chúng ta đang sống trong một thời đại vội vã, dường như mọi giao tiếp đều ở trên màn hình xanh, và dường như chúng ta thường quên đi những niềm vui giản dị, những ấm áp yêu thương, những cử chỉ chân thành ở một nơi mà chúng ta sống nhiều hơn ở nhà – đó là công sở.</p><p>Để rồi một ngày mọi áp lực như đổ vào đầu chúng ta cùng một lúc, áp lực từ sếp, áp lực từ đồng nghiệp, áp lực từ nhân viên…</p><p>Xì trét … xì trét khiến mỗi đêm chúng ta không thể ngủ được rồi luôn tự hỏi: Chúng ta đang làm cái quái gì vậy?</p><p>Thực tế là, chúng ta có làm gì đâu? Chính vì chúng ta không làm gì nên xì trét nối liền xì trét, áp lực nối liền áp lực.</p><p>Giá mà chúng ta biết lắng nghe hơn, biết chia sẻ hơn, biết hợp tác hơn, biết rèn luyện kỹ năng cho bản thân hơn, biết tôn trọng hơn… thì công sở thực sự là một mái nhà thứ hai của chúng ta.</p><p>Để cho mọi nhân viên, mọi vị sếp không thốt lên từ “giá mà”, chúng tôi viết cuốn sách này, từ kinh nghiệm quý báu trong và ngoài nước hi vọng có thể như một chiếc phao giúp quý vị “sống sót” giữa muôn trùng dông bão có tên là “áp lực nơi công sở”.</p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+          "images": [
+            {
+              "base_url": "https://salt.tikicdn.com/ts/product/82/82/80/c542073200c6e95d3e89840b2f41ce2e.jpg",
+              "is_gallery": true,
+              "label": null,
+              "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/82/82/80/c542073200c6e95d3e89840b2f41ce2e.jpg",
+              "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/82/82/80/c542073200c6e95d3e89840b2f41ce2e.jpg",
+              "position": null,
+              "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/82/82/80/c542073200c6e95d3e89840b2f41ce2e.jpg",
+              "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/82/82/80/c542073200c6e95d3e89840b2f41ce2e.jpg"
+            },
+            {
+              "base_url": "https://salt.tikicdn.com/ts/product/17/7c/ee/170e84629d730657e2e43c0ebaae4fb6.jpg",
+              "is_gallery": true,
+              "label": null,
+              "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/17/7c/ee/170e84629d730657e2e43c0ebaae4fb6.jpg",
+              "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/17/7c/ee/170e84629d730657e2e43c0ebaae4fb6.jpg",
+              "position": null,
+              "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/17/7c/ee/170e84629d730657e2e43c0ebaae4fb6.jpg",
+              "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/17/7c/ee/170e84629d730657e2e43c0ebaae4fb6.jpg"
+            },
+            {
+              "base_url": "https://salt.tikicdn.com/ts/product/be/65/38/fa6e7be4f1681d71757deb81edf00ac7.jpg",
+              "is_gallery": true,
+              "label": null,
+              "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/be/65/38/fa6e7be4f1681d71757deb81edf00ac7.jpg",
+              "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/be/65/38/fa6e7be4f1681d71757deb81edf00ac7.jpg",
+              "position": null,
+              "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/be/65/38/fa6e7be4f1681d71757deb81edf00ac7.jpg",
+              "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/be/65/38/fa6e7be4f1681d71757deb81edf00ac7.jpg"
+            }
+          ],
+          "list_price": 131100,
+          "name": "101 BÍ KÍP SỐNG SÓT NƠI CÔNG SỞ-Sửa lần 6",
+          "original_price": 138000,
+          "rating_average": "1",
+          "short_description": "Chúng ta đang sống trong một thời đại vội vã, dường như mọi giao tiếp đều ở trên màn hình xanh, và dường như chúng ta thường quên đi những niềm vui giản dị, những ấm áp yêu thương, những cử chỉ chân t...",
+          "specifications": [
+            {
+              "name": "Thông tin chung",
+              "attributes": [
+                {
+                  "name": "Công ty phát hành",
+                  "value": "SBOOKS"
+                },
+                {
+                  "name": "Số trang",
+                  "value": "336"
+                },
+                {
+                  "name": "Nhà xuất bản",
+                  "value": "Nhà Xuất Bản Thế Giới"
+                }
+              ]
+            }
+          ],
+          "id": 1,
+          "isHidden": false,
+          "cartQuantity": 1
+        }
+      ],
+      "amount": 131100,
+      "userId": 1,
+      "date": "2022-06-16T04:27:31.037Z",
+      "address": "Yên Hồng Ý Yên Nam Định",
+      "status": "Đã đặt",
+      "id": 1
+    },
+    {
+      "name": "Admin",
+      "email": "thienhotdog@gmail.com",
+      "product": [
+        {
+          "book_cover": null,
+          "categories": {
+            "id": 316,
+            "name": "Sách tiếng Việt",
+            "is_leaf": false
+          },
+          "current_seller": {
+            "id": 53660,
+            "sku": "7328355137461",
+            "name": "Nhà sách Fahasa",
+            "link": "https://tiki.vn/cua-hang/nha-sach-fahasa",
+            "logo": "ce/b3/22/b8fabaef7909cfe7349e7b538a174ab8.jpg",
+            "price": 131100,
+            "product_id": "80959947",
+            "store_id": 51001,
+            "is_best_store": false,
+            "is_offline_installment_supported": null
+          },
+          "description": "<p>Chúng ta đang sống trong một thời đại vội vã, dường như mọi giao tiếp đều ở trên màn hình xanh, và dường như chúng ta thường quên đi những niềm vui giản dị, những ấm áp yêu thương, những cử chỉ chân thành ở một nơi mà chúng ta sống nhiều hơn ở nhà – đó là công sở.</p><p>Để rồi một ngày mọi áp lực như đổ vào đầu chúng ta cùng một lúc, áp lực từ sếp, áp lực từ đồng nghiệp, áp lực từ nhân viên…</p><p>Xì trét … xì trét khiến mỗi đêm chúng ta không thể ngủ được rồi luôn tự hỏi: Chúng ta đang làm cái quái gì vậy?</p><p>Thực tế là, chúng ta có làm gì đâu? Chính vì chúng ta không làm gì nên xì trét nối liền xì trét, áp lực nối liền áp lực.</p><p>Giá mà chúng ta biết lắng nghe hơn, biết chia sẻ hơn, biết hợp tác hơn, biết rèn luyện kỹ năng cho bản thân hơn, biết tôn trọng hơn… thì công sở thực sự là một mái nhà thứ hai của chúng ta.</p><p>Để cho mọi nhân viên, mọi vị sếp không thốt lên từ “giá mà”, chúng tôi viết cuốn sách này, từ kinh nghiệm quý báu trong và ngoài nước hi vọng có thể như một chiếc phao giúp quý vị “sống sót” giữa muôn trùng dông bão có tên là “áp lực nơi công sở”.</p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+          "images": [
+            {
+              "base_url": "https://salt.tikicdn.com/ts/product/82/82/80/c542073200c6e95d3e89840b2f41ce2e.jpg",
+              "is_gallery": true,
+              "label": null,
+              "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/82/82/80/c542073200c6e95d3e89840b2f41ce2e.jpg",
+              "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/82/82/80/c542073200c6e95d3e89840b2f41ce2e.jpg",
+              "position": null,
+              "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/82/82/80/c542073200c6e95d3e89840b2f41ce2e.jpg",
+              "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/82/82/80/c542073200c6e95d3e89840b2f41ce2e.jpg"
+            },
+            {
+              "base_url": "https://salt.tikicdn.com/ts/product/17/7c/ee/170e84629d730657e2e43c0ebaae4fb6.jpg",
+              "is_gallery": true,
+              "label": null,
+              "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/17/7c/ee/170e84629d730657e2e43c0ebaae4fb6.jpg",
+              "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/17/7c/ee/170e84629d730657e2e43c0ebaae4fb6.jpg",
+              "position": null,
+              "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/17/7c/ee/170e84629d730657e2e43c0ebaae4fb6.jpg",
+              "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/17/7c/ee/170e84629d730657e2e43c0ebaae4fb6.jpg"
+            },
+            {
+              "base_url": "https://salt.tikicdn.com/ts/product/be/65/38/fa6e7be4f1681d71757deb81edf00ac7.jpg",
+              "is_gallery": true,
+              "label": null,
+              "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/be/65/38/fa6e7be4f1681d71757deb81edf00ac7.jpg",
+              "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/be/65/38/fa6e7be4f1681d71757deb81edf00ac7.jpg",
+              "position": null,
+              "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/be/65/38/fa6e7be4f1681d71757deb81edf00ac7.jpg",
+              "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/be/65/38/fa6e7be4f1681d71757deb81edf00ac7.jpg"
+            }
+          ],
+          "list_price": 131100,
+          "name": "101 BÍ KÍP SỐNG SÓT NƠI CÔNG SỞ-Sửa lần 6",
+          "original_price": 138000,
+          "rating_average": "1",
+          "short_description": "Chúng ta đang sống trong một thời đại vội vã, dường như mọi giao tiếp đều ở trên màn hình xanh, và dường như chúng ta thường quên đi những niềm vui giản dị, những ấm áp yêu thương, những cử chỉ chân t...",
+          "specifications": [
+            {
+              "name": "Thông tin chung",
+              "attributes": [
+                {
+                  "name": "Công ty phát hành",
+                  "value": "SBOOKS"
+                },
+                {
+                  "name": "Số trang",
+                  "value": "336"
+                },
+                {
+                  "name": "Nhà xuất bản",
+                  "value": "Nhà Xuất Bản Thế Giới"
+                }
+              ]
+            }
+          ],
+          "id": 1,
+          "isHidden": false,
+          "cartQuantity": 1
+        }
+      ],
+      "amount": 131100,
+      "userId": 1,
+      "date": "2022-06-16T05:10:39.909Z",
+      "address": "Yên Hồng Ý Yên Nam Định",
+      "status": "Đã đặt",
+      "id": 2
     }
   ]
 }

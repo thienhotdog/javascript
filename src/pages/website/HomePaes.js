@@ -32,18 +32,18 @@ const HomePages = {
         .map((product) => {
           const price = product.list_price;
           const salePrice = product.current_seller.price;
-          const sale =
-            Math.round(((price - salePrice) / price) * 100 * 100) / 100;
+          const sale = Math.round(((price - salePrice) / price) * 100);
           const hiden = product.isHidden;
-          console.log(hiden);
+          const prices = salePrice.toLocaleString();
+          console.log(prices);
           if (hiden === false) {
             return `
             <div class="col-span-3 book">
             
             <a href="/book/${product.id}">
-                <img src="${product.images[0].base_url}" /> 
+                <img src="${product.images[0].base_url}" class="width" /> 
                 <p class="text-center text_hover ">${product.name}</p>
-                <p class="text-center text-shop mt-2">${salePrice} VNĐ <span>${sale}%</span> </p>
+                <p class="text-center text-shop mt-2">${prices} VNĐ <span>${sale}%</span> </p>
             </a>
             </div>    
         `;
@@ -52,8 +52,8 @@ const HomePages = {
         .join("");
 
       return `
+      ${HeaderWebsite.render()}
             <div class="container">
-                ${HeaderWebsite.render()}
                     <div class="py-10 ">
                         <div class="grid grid-cols-12 gap-4">
                             <div class="col-span-3">
@@ -122,7 +122,9 @@ const HomePages = {
                     </div>
                 </div>
                     
-            ${FooterWebsite.render()}   
+              </div>
+              </div>
+              ${FooterWebsite.render()}   
             `;
     } catch (error) {
       console.log(error);
@@ -142,8 +144,9 @@ const HomePages = {
         .map((product) => {
           const price = product.list_price;
           const salePrice = product.current_seller.price;
-          const sale =
-            Math.round(((price - salePrice) / price) * 100 * 100) / 100;
+          const sale = Math.round(((price - salePrice) / price) * 100);
+          const prices = product.list_price.toLocaleString();
+          console.log(prices);
           return `
                 <div class="col-span-3 book">           
                 <a href="/book/${product.id}">
@@ -168,15 +171,14 @@ const HomePages = {
         .map((product) => {
           const price = product.list_price;
           const salePrice = product.current_seller.price;
-          const sale =
-          Math.round(((price - salePrice) / price) * 100 * 100) / 100;
-          if(product.isHidden === false){
+          const sale = Math.round(((price - salePrice) / price) * 100);
+          if (product.isHidden === false) {
             return `
             <div class="col-span-3 book">           
             <a href="/book/${product.id}">
-                <img src="${product.images[0].base_url}" /> 
+                <img src="${product.images[0].base_url}" class="width" /> 
                 <p class="text-center text_hover ">${product.name}</p>
-                <p class="text-center text-shop mt-2">${salePrice} VNĐ <span>${sale}%</span> </p>
+                <p class="text-center text-shop mt-2">${salePrice.toLocaleString()} VNĐ <span>${sale}%</span> </p>
             </a>
             </div>    
             `;
@@ -195,30 +197,34 @@ const HomePages = {
         const { data } = await sortBook(min, max);
         const result = data
           .map((product) => {
-              if(product.isHidden === false){
-                return `
+            const price = product.list_price;
+            const salePrice = product.current_seller.price;
+            const sale = Math.round(((price - salePrice) / price) * 100);
+            if (product.isHidden === false) {
+              return `
                 <div class="col-span-3 book">           
                 <a href="/book/${product.id}">
-                    <img src="${product.images[0].base_url}" /> 
+                    <img src="${product.images[0].base_url}" class="width" /> 
                     <p class="text-center text_hover ">${product.name}</p>
+                    <p class="text-center text-shop mt-2">${salePrice} VNĐ <span>${sale}%</span> </p>
                 </a>
                 </div>    
                 `;
-              }
+            }
           })
           .join("");
         document.getElementById("product").innerHTML = result;
       });
     });
 
-    const {user} = isAuthenticated();
-    if(user !== undefined){
+    const { user } = isAuthenticated();
+    if (user !== undefined) {
       const clear = document.getElementById("clear");
-      clear.addEventListener("click", (e) =>{ 
+      clear.addEventListener("click", (e) => {
         e.preventDefault();
-        localStorage.clear();   
-        window.location.href = "/" 
-      })
+        localStorage.clear();
+        window.location.href = "/";
+      });
     }
 
     const option_category = document.querySelectorAll("#option_category");
@@ -229,12 +235,16 @@ const HomePages = {
         const { data } = await getAll();
         const result = data
           .map((product) => {
-            if (product.categories.name === name &&product.isHidden === false) {
+            const price = product.list_price;
+            const salePrice = product.current_seller.price;
+            const sale = Math.round(((price - salePrice) / price) * 100);
+            if (product.categories.name === name) {
               return `
             <div class="col-span-3 book">           
               <a href="/book/${product.id}">
-                  <img src="${product.images[0].base_url}" /> 
+                  <img src="${product.images[0].base_url}" class="width" /> 
                   <p class="text-center text_hover ">${product.name}</p>
+                  <p class="text-center text-shop mt-2">${salePrice.toLocaleString()} VNĐ <span>${sale}%</span> </p>
               </a>
             </div>  
             `;

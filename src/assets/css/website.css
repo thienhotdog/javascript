@@ -201,8 +201,19 @@
     background-color: #FFFFFF;
     cursor: pointer;
 }
+.img_width{
+    width: 100px;
+    align-items: center;
+    object-fit: cover;
+    height: auto;
+}
 
-
+.width{
+    width: 240px;
+    height: 260px;
+    object-fit: cover;
+    margin: 0 auto;
+}
 .user_action:hover .user_form {
     display: block;
 }
@@ -369,6 +380,7 @@ h2 {
     width: 100%;
     min-height: 100%;
     padding: 20px;
+    padding-top: 80px;
 }
 
 #formContent {
@@ -402,6 +414,7 @@ h2.active {
     color: #0d0d0d;
     border-bottom: 2px solid #5fbae9;
 }
+
 
 
 /* FORM TYPOGRAPHY*/
@@ -481,6 +494,10 @@ input[type=reset]:active {
         -webkit-transform: none;
         transform: none;
     }
+}
+
+.fadeIn{
+    margin-bottom: 20px;
 }
 
 @-webkit-keyframes fadeIn {
